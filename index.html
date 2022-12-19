@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  
+</head>
+<body id="body" class="flex">
+  <main id="main" class="flex">
+    <section class="bal-sect flex">
+      <div class="para-h1 flex">
+        <p class="para" id="bal-para">
+          My balance
+        </p>
+        <h1 class="h1" id="total-bal">
+          $921.48
+        </h1>
+      </div>
+      <img src="images/logo.svg" alt="logo" class="img">
+    </section>
+
+    <section class="bar-sect flex">
+      <h2 class="h2 flex">
+        Spending - Last 7 days
+      </h2>
+      <div id="bar-div" class="flex">
+        <div class="bar-div-items flex">
+          <p class="bar-amount flex">$17.45</p>
+          <div class="bar mon-bar"></div>
+          <p class="week-day flex">mon</p>
+        </div>
+
+        <div class="bar-div-items flex">
+          <p class="bar-amount flex">$34.91</p>
+          <div class="bar tue-bar"></div>
+          <p class="week-day flex">tue</p>
+        </div>
+
+        <div class="bar-div-items flex">
+          <p class="bar-amount flex">$52.36</p>
+          <div class="bar wed-bar"></div>
+          <p class="week-day flex">wed</p>
+        </div>
+
+        <div class="bar-div-items flex">
+          <p class="bar-amount flex">$31.07</p>
+          <div class="bar thu-bar"></div>
+          <p class="week-day flex">thu</p>
+        </div>
+
+        <div class="bar-div-items flex">
+          <p class="bar-amount flex">$23.39</p>
+          <div class="bar fri-bar"></div>
+          <p class="week-day flex">fri</p>
+        </div>
+
+        <div class="bar-div-items flex">
+          <p class="bar-amount flex">$43.28</p>
+          <div class="bar sat-bar"></div>
+          <p class="week-day flex">sat</p>
+        </div>
+
+        <div class="bar-div-items flex">
+          <p class="bar-amount flex">$25.48</p>
+          <div class="bar sun-bar"></div>
+          <p class="week-day flex">sun</p>
+        </div>
+      </div>
+      <hr>
+      <div class="report-div flex">
+        <div class="total-spent flex">
+          <p class="para">
+            Total this month
+          </p>
+          <h1 class="h1" id="amount-spent">
+            $478.33
+          </h1>
+        </div>
+        <div class="bonus-div flex">
+          <h6 class="percent-bonus">
+            +2.4%
+          </h6>
+          <p class="para">
+            from last month
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://macchristo.github.io/Personal-site-1/"
+        >Macaulay Omoikhoje De-great</a
+      >.
+    </p>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
