@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL:   <https://github.com/MacChristo/expenses-chart-component.git>
-- Live Site URL: <https://macchristo.github.io/expenses-chart-component-form/>
+- Live Site URL: <https://macchristo.github.io/expenses-chart-component/>
 
 ## My process
 
